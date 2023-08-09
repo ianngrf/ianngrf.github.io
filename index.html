@@ -1,1 +1,118 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conexões MOOV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #711A69; /* Fundo roxo */
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            margin-top: 20px;
+        }
+
+        .image-button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 1cm; /* Espaço de 2cm entre as imagens e botões */
+        }
+
+        /* Estilos para as imagens e botões */
+        .image-container img {
+            max-height: 4cm;
+        }
+
+        /* Estilos para a imagem inicial */
+        .image-container img.initial-image {
+            max-height: 10cm; /* Tamanho aumentado */
+        }
+
+        /* Estilos para os botões */
+        .button-container button {
+            background-color: #00BBB4;
+            color: white;
+            border: none;
+            border-radius: 10px; /* Bordas arredondadas */
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Estilos para o rodapé */
+        .bottom-right-container {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            text-align: right;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="Moov_2_fundo.jpeg" alt="Imagem de Título" class="initial-image">
+        </div>
+
+        <div class="title">
+            Bem vindo ao ambiente de conexões MOOV
+        </div>
+        <div class="subtitle">
+            O que você deseja fazer ?
+        </div>
+    </div>
+
+    <div class="button-container">
+        <div class="image-button-container">
+            <div class="image-container">
+                <img src="Moov_fundo.jpeg" alt="Imagem do Botão 1">
+            </div>
+            <a class="button-container" href="https://operations-portal.liftango.com/signin/" target="_blank"><button>Serviço Pool - Área Verde</button></a>
+        </div>
+
+        <div class="image-button-container">
+            <div class="image-container">
+                <img src="logo-liftango.jpeg" alt="Imagem do Botão 2">
+            </div>
+            <a class="button-container" href="https://operations-portal-uat.liftango.com/signin/" target="_blank"><button>Ambiente de Teste do Pool</button></a>
+        </div>
+
+        <div class="image-button-container">
+            <div class="image-container">
+                <img src="logo-easy-course5.png" alt="Imagem do Botão 3">
+            </div>
+            <a class="button-container" href="https://acesso.easycourse.com.br/acesso/login/" target="_blank"><button>Rotas Fixas e JMP</button></a>
+        </div>
+    </div>
+
+    <div class="bottom-right-container">
+        <img src="suportev4.png" alt="Imagem">
+        <a class="button-container" href="contact.html" target="_blank"><button>Fazer contato</button></a>
+    </div>
+
+</body>
+</html>
+
+
